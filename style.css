@@ -84,6 +84,7 @@ main {
   border-radius: 13px;
   margin-top: 30px;
   font-weight: 700;
+  cursor: pointer;
 }
 
 .sponsor {
@@ -91,4 +92,10 @@ main {
   align-items: center;
   margin-top: 100px;
   justify-content: space-between;
+}
+
+#button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
 }

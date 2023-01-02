@@ -145,3 +145,22 @@ main {
 .hiddenCompany {
   visibility: hidden;
 }
+
+.pointer {
+  cursor: pointer;
+}
+
+.careers:hover,
+.about:hover,
+.login:hover {
+  color: black;
+  font-weight: bold;
+}
+
+.register:hover {
+  border: none;
+  transition: 1;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}

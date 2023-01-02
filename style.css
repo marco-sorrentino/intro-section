@@ -7,6 +7,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 30px;
+  color: grey;
 }
 
 .leftNav {
@@ -23,12 +24,14 @@ nav {
   display: flex;
   margin: 0px 40px;
   align-items: center;
+  cursor: pointer;
 }
 
 .company {
   display: flex;
   margin: 0px 40px;
   align-items: center;
+  cursor: pointer;
 }
 
 .careers {
@@ -43,6 +46,7 @@ nav {
   width: 0.8rem;
   height: 0.5rem;
   margin-left: 10px;
+  color: grey;
 }
 
 .register {
@@ -98,4 +102,30 @@ main {
   background-color: white;
   color: black;
   border: 1px solid black;
+}
+
+.features:hover,
+.company:hover {
+  color: black;
+  font-weight: bold;
+}
+
+.arrow:hover {
+  color: black;
+}
+
+#toggleFeautures {
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 100px;
+  background-color: white;
+  padding: 20px;
+  color: grey;
+  border-radius: 20px;
+  box-shadow: 0px 12px 24px -4px rgba(0, 0, 0, 0.39);
+  line-height: 30px;
+}
+
+.hidden {
+  visibility: hidden;
 }

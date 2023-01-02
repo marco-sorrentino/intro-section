@@ -129,3 +129,19 @@ main {
 .hidden {
   visibility: hidden;
 }
+
+#toggleCompany {
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 285px;
+  background-color: white;
+  padding: 20px;
+  color: grey;
+  border-radius: 20px;
+  box-shadow: 0px 12px 24px -4px rgba(0, 0, 0, 0.39);
+  line-height: 30px;
+}
+
+.hiddenCompany {
+  visibility: hidden;
+}
